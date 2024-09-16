@@ -10,7 +10,7 @@ const sks_1 = "2";
 const hari_2 = "Selasa";
 const jam_2 = "I-III";
 const pukul_2 = "07.30-10.05";
-const ruangan_2 = "Lab 10 ICT";
+const ruangan_2 = "ONLINE";
 const matkul_2 = "Organisasi dan Arsitektur Komputer";
 const sks_2 = "3";
 
@@ -18,7 +18,7 @@ const sks_2 = "3";
 const hari_3 = "Selasa";
 const jam_3 = "V-VI";
 const pukul_3 = "11.00-12.40";
-const ruangan_3 = "Lab Animasi";
+const ruangan_3 = "ONLINE";
 const matkul_3 = "Bahasa Inggris";
 const sks_3 = "2";
 
@@ -26,7 +26,7 @@ const sks_3 = "2";
 const hari_4 = "Selasa";
 const jam_4 = "IX-XI";
 const pukul_4 = "14.50-17.30";
-const ruangan_4 = "Lab Programing";
+const ruangan_4 = "ONLINE";
 const matkul_4 = "Algoritma dan Pemrograman Dasar";
 const sks_4 = "3";
 
@@ -58,7 +58,7 @@ const sks_7 = "2";
 const hari_8 = "Kamis";
 const jam_8 = "VII-VIII";
 const pukul_8 = "13.10-14.50";
-const ruangan_8 = "Lab Animasi";
+const ruangan_8 = "ONLINE";
 const matkul_8 = "Matematika Dasar";
 const sks_8 = "2";
 
