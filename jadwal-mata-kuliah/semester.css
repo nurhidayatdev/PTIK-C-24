@@ -71,24 +71,6 @@ h1 {
   font-size: 20px;
   border: 2px solid black;
 }
-
-.bg-2 , .bg-4 {
-  background: #FF6B6B;
-}
-
-.keterangan {
-  font-size: 14px;
-}
-#belum_fix {
-  border: 1px solid black;
-  background: white;
-  color: white;
-}
-#sudah_fix {
-  background: #FF6B6B;
-  color: #FF6B6B;
-  border: 1px solid black;
-}
 footer {
   font-size: 12px;
   text-align: center;
