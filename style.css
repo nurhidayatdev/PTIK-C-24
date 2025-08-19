@@ -5,7 +5,7 @@ html {
 .menu {
   font-size: 20px;
   display: block;
-  background-color: #8aaae4;
+  background-color: #6c27dc;
   font-weight: 700;
   padding: 10px 10px 10px 10px;
   border-bottom: 2px solid black;
@@ -14,14 +14,14 @@ html {
   background-color: black;
 }
 #menu1 {
-  background-color: #8aaae4;
+  background-color: #6c27dc;
   padding: 0;
 }
 summary {
   font-size: 20px;
   padding: 10px;
   font-weight: 700;
-  background-color: #8aaae4;
+  background-color: #6c27dc;
 }
 #right {
   float: right;
@@ -31,7 +31,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #8aaae4;
+  color: #6c27dc;
 }
 .tabel1 {
   border-collapse: collapse;
@@ -67,9 +67,10 @@ h1 {
   text-align: center;
 }
 .warna1 {
-  background-color: #8aaae4;
+  background-color: #6c27dc;
   font-size: 20px;
   border: 2px solid black;
+  color: white;
 }
 footer {
   font-size: 12px;
