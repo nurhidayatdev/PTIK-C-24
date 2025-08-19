@@ -8,8 +8,8 @@ const sks_1 = "3";
 
 // 2
 const hari_2 = "Senin";
-const jam_2 = "X-XI";
-const pukul_2 = "15.45-17.30";
+const jam_2 = "XI";
+const pukul_2 = "16.00-17.30";
 const ruangan_2 = "AE 107";
 const matkul_2 = "Profesi Kependidikan";
 const sks_2 = "2";
@@ -17,15 +17,15 @@ const sks_2 = "2";
 // 3
 const hari_3 = "Selasa";
 const jam_3 = "III-V";
-const pukul_3 = "09.15-11.50";
+const pukul_3 = "09.15-11.00";
 const ruangan_3 = "Lab ICT 3";
 const matkul_3 = "Inovasi Teknologi";
 const sks_3 = "2";
 
 // 4
 const hari_4 = "Selasa";
-const jam_4 = "V-VII";
-const pukul_4 = "11.00-12.40";
+const jam_4 = "V-VI";
+const pukul_4 = "11.00-13.10";
 const ruangan_4 = "C2-P5";
 const matkul_4 = "Strategi Pembelajaran";
 const sks_4 = "3";
@@ -55,12 +55,20 @@ const matkul_7 = "Pemrograman Web";
 const sks_7 = "3";
 
 // 8
-const hari_8 = "Jumat";
-const jam_8 = "IX-XI";
-const pukul_8 = "14.50-17.30";
-const ruangan_8 = "AE 107";
-const matkul_8 = "Struktur Data";
-const sks_8 = "3";
+const hari_8 = "Kamis";
+const jam_8 = "X-XI";
+const pukul_8 = "16.00-17.30";
+const ruangan_8 = "Lab Animasi";
+const matkul_8 = "Psikologi Pendidikan";
+const sks_8 = "2";
+
+// 9
+const hari_9 = "Jumat";
+const jam_9 = "IX-XI";
+const pukul_9 = "14.50-17.30";
+const ruangan_9 = "AE 107";
+const matkul_9 = "Struktur Data";
+const sks_9 = "3";
 
 
 // Set innerText
@@ -119,3 +127,10 @@ document.getElementById("pukul_8").innerText = pukul_8;
 document.getElementById("ruangan_8").innerText = ruangan_8;
 document.getElementById("matkul_8").innerText = matkul_8;
 document.getElementById("sks_8").innerText = sks_8;
+
+document.getElementById("hari_9").innerText = hari_9;
+document.getElementById("jam_9").innerText = jam_9;
+document.getElementById("pukul_9").innerText = pukul_9;
+document.getElementById("ruangan_9").innerText = ruangan_9;
+document.getElementById("matkul_9").innerText = matkul_9;
+document.getElementById("sks_9").innerText = sks_9;
