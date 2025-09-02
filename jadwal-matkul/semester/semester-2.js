@@ -70,65 +70,11 @@ const ruangan_9 = "AE 104";
 const matkul_9 = "Pancasila";
 const sks_9 = "2";
 
-document.getElementById("hari_1").innerText = hari_1;
-document.getElementById("jam_1").innerText = jam_1;
-document.getElementById("pukul_1").innerText = pukul_1;
-document.getElementById("ruangan_1").innerText = ruangan_1;
-document.getElementById("matkul_1").innerText = matkul_1;
-document.getElementById("sks_1").innerText = sks_1;
-
-document.getElementById("hari_2").innerText = hari_2;
-document.getElementById("jam_2").innerText = jam_2;
-document.getElementById("pukul_2").innerText = pukul_2;
-document.getElementById("ruangan_2").innerText = ruangan_2;
-document.getElementById("matkul_2").innerText = matkul_2;
-document.getElementById("sks_2").innerText = sks_2;
-
-document.getElementById("hari_3").innerText = hari_3;
-document.getElementById("jam_3").innerText = jam_3;
-document.getElementById("pukul_3").innerText = pukul_3;
-document.getElementById("ruangan_3").innerText = ruangan_3;
-document.getElementById("matkul_3").innerText = matkul_3;
-document.getElementById("sks_3").innerText = sks_3;
-
-document.getElementById("hari_4").innerText = hari_4;
-document.getElementById("jam_4").innerText = jam_4;
-document.getElementById("pukul_4").innerText = pukul_4;
-document.getElementById("ruangan_4").innerText = ruangan_4;
-document.getElementById("matkul_4").innerText = matkul_4;
-document.getElementById("sks_4").innerText = sks_4;
-
-document.getElementById("hari_5").innerText = hari_5;
-document.getElementById("jam_5").innerText = jam_5;
-document.getElementById("pukul_5").innerText = pukul_5;
-document.getElementById("ruangan_5").innerText = ruangan_5;
-document.getElementById("matkul_5").innerText = matkul_5;
-document.getElementById("sks_5").innerText = sks_5;
-
-document.getElementById("hari_6").innerText = hari_6;
-document.getElementById("jam_6").innerText = jam_6;
-document.getElementById("pukul_6").innerText = pukul_6;
-document.getElementById("ruangan_6").innerText = ruangan_6;
-document.getElementById("matkul_6").innerText = matkul_6;
-document.getElementById("sks_6").innerText = sks_6;
-
-document.getElementById("hari_7").innerText = hari_7;
-document.getElementById("jam_7").innerText = jam_7;
-document.getElementById("pukul_7").innerText = pukul_7;
-document.getElementById("ruangan_7").innerText = ruangan_7;
-document.getElementById("matkul_7").innerText = matkul_7;
-document.getElementById("sks_7").innerText = sks_7;
-
-document.getElementById("hari_8").innerText = hari_8;
-document.getElementById("jam_8").innerText = jam_8;
-document.getElementById("pukul_8").innerText = pukul_8;
-document.getElementById("ruangan_8").innerText = ruangan_8;
-document.getElementById("matkul_8").innerText = matkul_8;
-document.getElementById("sks_8").innerText = sks_8;
-
-document.getElementById("hari_9").innerText = hari_9;
-document.getElementById("jam_9").innerText = jam_9;
-document.getElementById("pukul_9").innerText = pukul_9;
-document.getElementById("ruangan_9").innerText = ruangan_9;
-document.getElementById("matkul_9").innerText = matkul_9;
-document.getElementById("sks_9").innerText = sks_9;
+for (let i = 1; i <= 9; i++) {
+  document.getElementById(`hari_${i}`).innerText = eval(`hari_${i}`);
+  document.getElementById(`jam_${i}`).innerText = eval(`jam_${i}`);
+  document.getElementById(`pukul_${i}`).innerText = eval(`pukul_${i}`);
+  document.getElementById(`ruangan_${i}`).innerText = eval(`ruangan_${i}`);
+  document.getElementById(`matkul_${i}`).innerText = eval(`matkul_${i}`);
+  document.getElementById(`sks_${i}`).innerText = eval(`sks_${i}`);
+}
