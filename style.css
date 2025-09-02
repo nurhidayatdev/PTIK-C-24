@@ -54,6 +54,9 @@ tr {
 td {
   font-weight: 600;
 }
+.no {
+  width: 2%;
+}
 .kolom1 {
   width: 10%;
 }
