@@ -9,9 +9,9 @@ const jam_2 = "";
 const deskripsi_2 = "";
 
 // Inovasi Teknologi
-const tanggal_3 = "7 September 2025";
+const tanggal_3 = "";
 const jam_3 = "";
-const deskripsi_3 = "Menetukan Judul Proposal PKM";
+const deskripsi_3 = "";
 
 // Strategi Pembelajaran
 const tanggal_4 = "";
@@ -34,9 +34,9 @@ const jam_7 = "";
 const deskripsi_7 = "";
 
 // Struktur Data
-const tanggal_8 = "5 September 2025";
+const tanggal_8 = "";
 const jam_8 = "";
-const deskripsi_8 = "Laporan Modul 1";
+const deskripsi_8 = "";
 
 // Kode DOM
 document.getElementById("tanggal_1").innerText = tanggal_1;
