@@ -8,7 +8,7 @@ const sks_1 = "3";
 
 // 2
 const hari_2 = "Senin";
-const jam_2 = "XI";
+const jam_2 = "X-XI";
 const pukul_2 = "16.00-17.30";
 const ruangan_2 = "AE 107";
 const matkul_2 = "Profesi Kependidikan";
