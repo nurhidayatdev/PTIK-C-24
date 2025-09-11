@@ -11,7 +11,7 @@ const deskripsi_2 = "-";
 // Inovasi Teknologi
 const tanggal_3 = "15 September 2025";
 const jam_3 = "22.00";
-const deskripsi_3 = "resume";
+const deskripsi_3 = "resume dan pendahuluan";
 
 // Strategi Pembelajaran
 const tanggal_4 = "-";
@@ -26,7 +26,7 @@ const deskripsi_5 = "tugas kelompok";
 // Jaringan Komputer
 const tanggal_6 = "10 September 2025";
 const jam_6 = "jamnya";
-const deskripsi_6 = "resume dan pendahuluan";
+const deskripsi_6 = "resume";
 
 // Pemrograman Web
 const tanggal_7 = "10 September 2025";
