@@ -31,7 +31,7 @@ const deskripsi_6 = "resume";
 // Pemrograman Web
 const tanggal_7 = "10 September 2025";
 const jam_7 = "24.00";
-const deskripsi_7 = tugas dan praktikum";
+const deskripsi_7 = "tugas dan praktikum";
 
 // Struktur Data
 const tanggal_8 = "12 September 2025";
