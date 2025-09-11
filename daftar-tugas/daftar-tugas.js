@@ -26,7 +26,7 @@ const deskripsi_5 = "tugas kelompok";
 // Jaringan Komputer
 const tanggal_6 = "10 September 2025";
 const jam_6 = "jamnya";
-const deskripsi_6 = "resume";
+const deskripsi_6 = "resume dan pendahuluan";
 
 // Pemrograman Web
 const tanggal_7 = "10 September 2025";
