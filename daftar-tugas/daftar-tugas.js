@@ -21,7 +21,7 @@ const deskripsi_4 = "";
 
 // Kecerdasan Buatan
 const tanggal_5 = "16-09-2025";
-const jam_5 = "14.50";
+const jam_5 = "15.00";
 const deskripsi_5 = "Tugas Kelompok: Pendekatan Representasi Pengetahuan";
 
 // Jaringan Komputer
