@@ -82,20 +82,20 @@ footer {
   font-size: 12px;
   text-align: center;
 }
-k1 {
-  width: 60%;
+.k1 {
+  width: 25%;
 }
-k3 {
-  width: 20%;
+.k3 {
+  width: 55%;
 }
-k4 {
-  width: 3%;
-}
-k5 {
+.k4 {
   width: 5%;
 }
-k6 {
-  width: 3%;
+.k5 {
+  width: 10%;
+}
+.k6 {
+  width: 5%;
 }
 
 @media screen and (max-width: 600px) {
