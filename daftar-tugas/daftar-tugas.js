@@ -34,9 +34,9 @@ const jam_7 = "24.00";
 const deskripsi_7 = "Praktikum 3: CSS";
 
 // Struktur Data
-const tanggal_8 = "12 September 2025";
-const jam_8 = "12.00";
-const deskripsi_8 = "Praktikum 1: Array";
+const tanggal_8 = "17 September 2025";
+const jam_8 = "13.00";
+const deskripsi_8 = "Praktikum 2: Pointer";
 
 // Kode DOM
 for (let i = 1; i <= 8; i++) {
