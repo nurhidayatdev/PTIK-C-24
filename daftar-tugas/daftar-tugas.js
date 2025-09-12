@@ -26,7 +26,7 @@ const deskripsi_5 = "Tugas Kelompok: Pendekatan Representasi Pengetahuan";
 
 // Jaringan Komputer
 const tanggal_6 = "17-09-2025";
-const jam_6 = "10.05";
+const jam_6 = "10.00";
 const deskripsi_6 = "Summary Protokol Jaringan";
 
 // Pemrograman Web
