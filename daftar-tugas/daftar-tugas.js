@@ -20,17 +20,17 @@ const jam_4 = "";
 const deskripsi_4 = "";
 
 // Kecerdasan Buatan
-const tanggal_5 = "17-09-2025";
+const tanggal_5 = "16-09-2025";
 const jam_5 = "14.50";
 const deskripsi_5 = "Tugas Kelompok: Pendekatan Representasi Pengetahuan";
 
 // Jaringan Komputer
-const tanggal_6 = "10-09-2025";
+const tanggal_6 = "17-09-2025";
 const jam_6 = "10.05";
 const deskripsi_6 = "Summary Protokol Jaringan";
 
 // Pemrograman Web
-const tanggal_7 = "10-09-2025";
+const tanggal_7 = "18-09-2025";
 const jam_7 = "24.00";
 const deskripsi_7 = "Praktikum 3: CSS";
 const link_7 = "https://docs.google.com/forms/d/e/1FAIpQLSdbpqdHFNEew-wefIaBbjz66ewZenODm9kyvzpRGqJ6tyWueA/viewform";
