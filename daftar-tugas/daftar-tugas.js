@@ -31,7 +31,7 @@ const deskripsi_6 = "Summary Protokol Jaringan";
 // Pemrograman Web
 const tanggal_7 = "10 September 2025";
 const jam_7 = "24.00";
-const deskripsi_7 = "Praktikum 3: CSS\n <a href="#">Link Pengumpulan</a>";
+const deskripsi_7 = "Praktikum 3: CSS \n<a href="#">Link Pengumpulan</a>";
 
 // Struktur Data
 const tanggal_8 = "17 September 2025";
