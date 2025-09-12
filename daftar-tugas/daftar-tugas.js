@@ -11,8 +11,7 @@ const deskripsi_2 = "-";
 // Inovasi Teknologi
 const tanggal_3 = "15 September 2025";
 const jam_3 = "22.00";
-const deskripsi_3 = "- Resume Materi \n
-- Pendahuluan Proposal PKM";
+const deskripsi_3 = "- Resume Materi \n- Pendahuluan Proposal PKM";
 
 // Strategi Pembelajaran
 const tanggal_4 = "-";
