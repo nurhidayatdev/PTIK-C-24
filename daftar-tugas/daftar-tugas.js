@@ -15,7 +15,7 @@ const jam_3 = "22.00";
 const deskripsi_3 = "Resume Materi & Pendahuluan Proposal PKM";
 
 // Strategi Pembelajaran
-const tanggal_4 = "15-09-2005";
+const tanggal_4 = "15-09-2025";
 const jam_4 = "23.59";
 const deskripsi_4 = "Perbedaan antara Pendekatan, Metode, Teknik, Taktik, Gaya, dan Model Pembelajaran, berdasarkan pengertian dan jenis-jenisnya.";
 
