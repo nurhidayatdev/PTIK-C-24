@@ -19,7 +19,7 @@ const link_3 = "";
 // Strategi Pembelajaran
 const tanggal_4 = "15-09-2025";
 const jam_4 = "23.00";
-const deskripsi_4 = "Perbedaan antara Pendekatan, Metode, Teknik, Taktik, Gaya, dan Model Pembelajaran.";
+const deskripsi_4 = "Perbedaan antara Pendekatan, Metode, Teknik, Taktik, Gaya, dan Model Pembelajaran";
 const link_4 = "https://lms.unm.ac.id/mod/assign/view.php?id=683162";
 
 // Kecerdasan Buatan
