@@ -82,6 +82,21 @@ footer {
   font-size: 12px;
   text-align: center;
 }
+k1 {
+  width: 60%;
+}
+k3 {
+  width: 20%;
+}
+k4 {
+  width: 3%;
+}
+k5 {
+  width: 5%;
+}
+k6 {
+  width: 3%;
+}
 
 @media screen and (max-width: 600px) {
   summary,

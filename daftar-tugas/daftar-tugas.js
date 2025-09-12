@@ -1,12 +1,13 @@
 // Keamanan Komputer
-const tanggal_1 = "-";
-const jam_1 = "-";
-const deskripsi_1 = "-";
+const tanggal_1 = "";
+const jam_1 = "";
+const deskripsi_1 = "";
+const link_1 = "";
 
 // Profesi Kependidikan
-const tanggal_2 = "-";
-const jam_2 = "-";
-const deskripsi_2 = "-";
+const tanggal_2 = "";
+const jam_2 = "";
+const deskripsi_2 = "";
 
 // Inovasi Teknologi
 const tanggal_3 = "15 September 2025";
@@ -14,9 +15,9 @@ const jam_3 = "22.00";
 const deskripsi_3 = "Resume Materi & Pendahuluan Proposal PKM";
 
 // Strategi Pembelajaran
-const tanggal_4 = "-";
-const jam_4 = "-";
-const deskripsi_4 = "-";
+const tanggal_4 = "";
+const jam_4 = "";
+const deskripsi_4 = "";
 
 // Kecerdasan Buatan
 const tanggal_5 = "17 September 2025";
@@ -32,6 +33,7 @@ const deskripsi_6 = "Summary Protokol Jaringan";
 const tanggal_7 = "10 September 2025";
 const jam_7 = "24.00";
 const deskripsi_7 = "Praktikum 3: CSS";
+const link_7 = "https://docs.google.com/forms/d/e/1FAIpQLSdbpqdHFNEew-wefIaBbjz66ewZenODm9kyvzpRGqJ6tyWueA/viewform";
 
 // Struktur Data
 const tanggal_8 = "17 September 2025";
@@ -43,4 +45,5 @@ for (let i = 1; i <= 8; i++) {
   document.getElementById(`tanggal_${i}`).innerText = eval(`tanggal_${i}`);
   document.getElementById(`jam_${i}`).innerText = eval(`jam_${i}`);
   document.getElementById(`deskripsi_${i}`).innerText = eval(`deskripsi_${i}`);
+  document.getElementById(`link_${i}`).href = eval(`link_${i}`);
 }
