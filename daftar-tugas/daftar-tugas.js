@@ -74,9 +74,8 @@ document.getElementById("info-1").addEventListener("click", function () {
         </a>
       </div>
     `,
-    icon: "info",
     confirmButtonText: "OK",
-    confirmButtonColor: "#3498db"
+    confirmButtonColor: "#6c27dc"
   });
 });
 
@@ -98,9 +97,8 @@ document.getElementById("info-2").addEventListener("click", function () {
         </a>
       </div>
     `,
-    icon: "info",
     confirmButtonText: "OK",
-    confirmButtonColor: "#3498db"
+    confirmButtonColor: "#6c27dc"
   });
 });
 
@@ -122,9 +120,8 @@ document.getElementById("info-3").addEventListener("click", function () {
         </a>
       </div>
     `,
-    icon: "info",
     confirmButtonText: "OK",
-    confirmButtonColor: "#3498db"
+    confirmButtonColor: "#6c27dc"
   });
 });
 
@@ -146,9 +143,8 @@ document.getElementById("info-4").addEventListener("click", function () {
         </a>
       </div>
     `,
-    icon: "info",
     confirmButtonText: "OK",
-    confirmButtonColor: "#3498db"
+    confirmButtonColor: "#6c27dc"
   });
 });
 
@@ -170,9 +166,8 @@ document.getElementById("info-5").addEventListener("click", function () {
         </a>
       </div>
     `,
-    icon: "info",
     confirmButtonText: "OK",
-    confirmButtonColor: "#3498db"
+    confirmButtonColor: "#6c27dc"
   });
 });
 
@@ -194,9 +189,8 @@ document.getElementById("info-6").addEventListener("click", function () {
         </a>
       </div>
     `,
-    icon: "info",
     confirmButtonText: "OK",
-    confirmButtonColor: "#3498db"
+    confirmButtonColor: "#6c27dc"
   });
 });
 
@@ -218,9 +212,8 @@ document.getElementById("info-7").addEventListener("click", function () {
         </a>
       </div>
     `,
-    icon: "info",
     confirmButtonText: "OK",
-    confirmButtonColor: "#3498db"
+    confirmButtonColor: "#6c27dc"
   });
 });
 
@@ -242,9 +235,8 @@ document.getElementById("info-8").addEventListener("click", function () {
         </a>
       </div>
     `,
-    icon: "info",
     confirmButtonText: "OK",
-    confirmButtonColor: "#3498db"
+    confirmButtonColor: "#6c27dc"
   });
 });
 

@@ -1,143 +1,170 @@
 html {
-  font-family: "Poppins", Sans-Serif;
-  background: #E9EFEC;
+    font-family: "Poppins", Sans-Serif;
+    background: #e9efec;
 }
 .menu {
-  font-size: 20px;
-  display: block;
-  background-color: #6c27dc;
-  font-weight: 700;
-  padding: 10px 10px 10px 10px;
-  border-bottom: 2px solid black;
+    font-size: 20px;
+    display: block;
+    background-color: #6c27dc;
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 2px solid black;
 }
 .menu:hover {
-  background-color: black;
+    background-color: black;
 }
 #menu1 {
-  background-color: #6c27dc;
-  padding: 0;
+    background-color: #6c27dc;
+    padding: 0;
 }
 summary {
-  font-size: 20px;
-  padding: 10px;
-  font-weight: 700;
-  background-color: #6c27dc;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #6c27dc;
+    color: white;
 }
 #right {
-  float: right;
+    float: right;
 }
 a {
-  color: black6c27dc;
-  text-decoration: none;
+    color: black6c27dc;
+    text-decoration: none;
 }
 a:hover {
-  color: #6c27dc;
+    color: #6c27dc;
 }
 .button {
-  padding: 10px;
+    padding: 10px;
 }
 .tabel1 {
-  border-collapse: collapse;
-  width: 80%;
-  border: 2px solid black;
-  text-align: center;
-  background: white;
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px solid black;
+    text-align: center;
+    background: white;
 }
 
 th,
 td,
 tr {
-  padding: 8px;
-  border: 1px solid black;
-  border-left: 2px solid black;
+    padding: 8px;
+    border: 1px solid black;
+    border-left: 2px solid black;
 }
 td {
-  font-weight: 600;
+    font-weight: 600;
 }
 .no {
-  width: 2%;
+    width: 2%;
 }
 .kolom1 {
-  width: 10%;
+    width: 10%;
 }
 .kolom2 {
-  width: 18%;
+    width: 18%;
 }
 .kolom3 {
-  width: 24%;
+    width: 24%;
 }
 .kolom4 {
-  width: 36%;
+    width: 36%;
 }
 h1 {
-  text-align: center;
+    text-align: center;
 }
 .warna1 {
-  background-color: #6c27dc;
-  font-size: 20px;
-  border: 2px solid black;
-  color: white;
+    background-color: #6c27dc;
+    font-size: 20px;
+    border: 2px solid black;
+    color: white;
 }
 footer {
-  font-size: 12px;
-  text-align: center;
+    font-size: 20px;
+    text-align: center;
 }
 .k1 {
-  width: 35%;
+    width: 35%;
 }
 .k3 {
-  width: 45%;
+    width: 45%;
 }
 .k4 {
-  width: 5%;
+    width: 5%;
 }
 .k5 {
-  width: 10%;
+    width: 10%;
 }
 .k6 {
-  width: 5%;
+    width: 5%;
 }
- .alertButton {
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      gap: 10px;
-    }
+.alertButton {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
 .aAlert {
-  text-decoration: none;
-      color: white;
-      text-align: left;
-      border-radius: 5px;
-      font-size: 16px;
-      background:#2980b9; 
-      padding: 5px
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #6c27dc;
+    padding: 5px;
+}
+i {
+    font-size: 25px;
+    color: #6c27dc;
+}
+i:hover {
+    color: black;
+}
+.img-main,
+.img-section {
+    width: 20%;
+    margin: auto;
+    display: block;
 }
 
 @media screen and (max-width: 600px) {
-  summary,
-  .menu {
-    font-size: 14px;
-    padding: 5px;
-  }
-  .li-footer {
-    font-size: 12px;
-    margin-bottom: 0;
-  }
-  h1 {
-    font-size: 17px;
-  }
-  .tabel1 {
-    width: 100%;
-  }
-  th,
-  td,
-  tr {
-    padding: 4px;
-  }
-  tr {
-    font-size: 8px;
-  }
-  .warna1 {
-    font-size: 11px;
-  }
+    .img-main {
+        width: 50%;
+    }
+    .img-section {
+        width: 30%;
+    }
+    summary,
+    .menu {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .li-footer {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 17px;
+    }
+    .tabel1 {
+        width: 100%;
+    }
+    th,
+    td,
+    tr {
+        padding: 4px;
+    }
+    tr {
+        font-size: 8px;
+    }
+    .warna1 {
+        font-size: 11px;
+    }
+    i {
+        font-size: 13px;
+        color: #6c27dc;
+    }
+    footer {
+        font-size: 12px;
+    }
 }
