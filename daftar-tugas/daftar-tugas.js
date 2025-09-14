@@ -17,7 +17,7 @@ const tanggal_3 = "15-09-2025";
 const jam_3 = "22.00";
 const deskripsi_3 = "Resume Materi & Pendahuluan Proposal PKM";
 const file_3 = "file-tugas/none.txt";
-const link_3 = "";
+const link_3 = "https://drive.google.com/drive/folders/1Ovb9-vCN1zcc-7OKMugqaU2tfQ4cDzLS?usp=drive_link";
 
 // Strategi Pembelajaran
 const tanggal_4 = "15-09-2025";
