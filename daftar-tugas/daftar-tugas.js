@@ -48,7 +48,7 @@ const file_7 = "file-tugas/pw.pdf";
 const link_7 = "https://docs.google.com/forms/d/e/1FAIpQLSdbpqdHFNEew-wefIaBbjz66ewZenODm9kyvzpRGqJ6tyWueA/viewform";
 
 // Struktur Data
-const tanggal_8 = "17-09-2025";
+const tanggal_8 = "19-09-2025";
 const jam_8 = "13.00";
 const deskripsi_8 = "Praktikum 2: Pointer";
 const file_8 = "file-tugas/sd.docx";
