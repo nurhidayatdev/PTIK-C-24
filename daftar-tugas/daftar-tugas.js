@@ -10,7 +10,7 @@ const tanggal_2 = "";
 const jam_2 = "";
 const deskripsi_2 = "";
 const file_2 = "file-tugas/none.txt";
-const link_2 = "";
+const link_2 = "https://drive.google.com/drive/folders/1Ip6DfeJ7g_vzLfaQqPnSJUbJT6DwrY6Z";
 
 // Inovasi Teknologi
 const tanggal_3 = "15-09-2025";
