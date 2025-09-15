@@ -13,18 +13,18 @@ const file_2 = "file-tugas/none.txt";
 const link_2 = "https://drive.google.com/drive/folders/1Ip6DfeJ7g_vzLfaQqPnSJUbJT6DwrY6Z";
 
 // Inovasi Teknologi
-const tanggal_3 = "15-09-2025";
-const jam_3 = "22.00";
-const deskripsi_3 = "Resume Materi & Pendahuluan Proposal PKM";
+const tanggal_3 = "";
+const jam_3 = "";
+const deskripsi_3 = "";
 const file_3 = "file-tugas/none.txt";
 const link_3 = "https://drive.google.com/drive/folders/1Ovb9-vCN1zcc-7OKMugqaU2tfQ4cDzLS?usp=drive_link";
 
 // Strategi Pembelajaran
-const tanggal_4 = "15-09-2025";
-const jam_4 = "23.00";
-const deskripsi_4 = "Perbedaan antara Pendekatan, Metode, Teknik, Taktik, Gaya, dan Model Pembelajaran";
+const tanggal_4 = "";
+const jam_4 = "";
+const deskripsi_4 = "";
 const file_4 = "file-tugas/none.txt";
-const link_4 = "https://lms.unm.ac.id/mod/assign/view.php?id=683162";
+const link_4 = "";
 
 // Kecerdasan Buatan
 const tanggal_5 = "16-09-2025";
