@@ -13,9 +13,9 @@ const file_2 = "file-tugas/none.txt";
 const link_2 = "https://drive.google.com/drive/folders/1Ip6DfeJ7g_vzLfaQqPnSJUbJT6DwrY6Z";
 
 // Inovasi Teknologi
-const tanggal_3 = "";
-const jam_3 = "";
-const deskripsi_3 = "";
+const tanggal_3 = "23-09-2025";
+const jam_3 = "09.00";
+const deskripsi_3 = "Bab 2 & 3 Proposal PKM";
 const file_3 = "file-tugas/none.txt";
 const link_3 = "https://drive.google.com/drive/folders/1Ovb9-vCN1zcc-7OKMugqaU2tfQ4cDzLS?usp=drive_link";
 
