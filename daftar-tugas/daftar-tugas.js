@@ -24,7 +24,7 @@ const tanggal_4 = "22-09-2025";
 const jam_4 = "22.00";
 const deskripsi_4 = "Buatlah contoh penerapan masing-masing metode pembelajaran pada Mata Pelajaran Informatika. Identifikasi perbedaan dan karakteristik dari setiap jenis metode pembelajarannya.";
 const file_4 = "file-tugas/none.txt";
-const link_4 = "";
+const link_4 = "https://lms.unm.ac.id/mod/assign/view.php?id=685359";
 
 // Kecerdasan Buatan
 const tanggal_5 = "16-09-2025";
