@@ -20,9 +20,9 @@ const file_3 = "file-tugas/none.txt";
 const link_3 = "https://drive.google.com/drive/folders/1Ovb9-vCN1zcc-7OKMugqaU2tfQ4cDzLS?usp=drive_link";
 
 // Strategi Pembelajaran
-const tanggal_4 = "";
-const jam_4 = "";
-const deskripsi_4 = "";
+const tanggal_4 = "22-09-2025";
+const jam_4 = "22.00";
+const deskripsi_4 = "Buatlah contoh penerapan masing-masing metode pembelajaran pada Mata Pelajaran Informatika. Identifikasi perbedaan dan karakteristik dari setiap jenis metode pembelajarannya.";
 const file_4 = "file-tugas/none.txt";
 const link_4 = "";
 
