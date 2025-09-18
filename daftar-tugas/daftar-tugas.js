@@ -75,10 +75,10 @@ const jadwalData = [
   {
     matakuliah: "Pemrograman Web",
     deadline: {
-      pukul: "",
-      tanggal: ""
+      pukul: "23.00",
+      tanggal: "24-09-2025"
     },
-    deskripsi: "",
+    deskripsi: "Proyek Kelompok: Membuat website sekolah",
     link: {
       filetugas: "<a href='#' ><i class='fa-solid fa-download'></i></a>",
       pengumpulan: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSdbpqdHFNEew-wefIaBbjz66ewZenODm9kyvzpRGqJ6tyWueA/viewform'><i class='fa-solid fa-link'></i></a>"
