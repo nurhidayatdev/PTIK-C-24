@@ -610,6 +610,23 @@
     }
   }
 }
+* {
+  font-family: "Poppins", sans-serif;
+}
+.slider {
+  transition: transform 0.5s ease-in-out;
+}
+.fade-in {
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
