@@ -80,7 +80,7 @@ const jadwalData = [
     },
     deskripsi: "Proyek Kelompok: Membuat website sekolah",
     link: {
-      filetugas: "<a href='#' ><i class='fa-solid fa-download'></i></a>",
+      filetugas: "<a href='file-tugas/pw.docx' download><i class='fa-solid fa-download'></i></a>",
       pengumpulan: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSdbpqdHFNEew-wefIaBbjz66ewZenODm9kyvzpRGqJ6tyWueA/viewform'><i class='fa-solid fa-link'></i></a>"
     },   
   },
