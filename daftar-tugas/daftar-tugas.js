@@ -28,7 +28,7 @@ const jadwalData = [
     matakuliah: "Inovasi Teknologi",
     deadline: {
       pukul: "22.00",
-      tanggal: "15-09-2025"
+      tanggal: "22-09-2025"
     },
     deskripsi: "Bab 2 & Bab 3 Proposal PKM",
     link: {
