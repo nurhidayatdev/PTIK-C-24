@@ -64,9 +64,9 @@ const jadwalData = [
     matakuliah: "Jaringan Komputer",
     deadline: {
       pukul: "10.00",
-      tanggal: ""
+      tanggal: "01-10-2025"
     },
-    deskripsi: "",
+    deskripsi: "Routing, Domain Name System",
     link: {
       filetugas: "<a href='#' download ><i class='fa-solid fa-download'></i></a>",
       pengumpulan: "<a href='#'><i class='fa-solid fa-link'></i></a>"
