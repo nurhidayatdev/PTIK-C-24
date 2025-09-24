@@ -28,9 +28,9 @@ const jadwalData = [
     matakuliah: "Inovasi Teknologi",
     deadline: {
       pukul: "22.00",
-      tanggal: "22-09-2025"
+      tanggal: "29-09-2025"
     },
-    deskripsi: "Bab 2 & Bab 3 Proposal PKM",
+    deskripsi: "Bab 4 & Lampiran",
     link: {
       filetugas: "<a href='#' ><i class='fa-solid fa-download'></i></a>",
       pengumpulan: "<a href='https://drive.google.com/drive/folders/1Ovb9-vCN1zcc-7OKMugqaU2tfQ4cDzLS?usp=drive_link'><i class='fa-solid fa-link'></i></a>"
@@ -39,22 +39,22 @@ const jadwalData = [
   {
     matakuliah: "Strategi Pembelajaran",
     deadline: {
-      pukul: "22.00",
-      tanggal: "22-09-2025"
+      pukul: "",
+      tanggal: ""
     },
-    deskripsi: "Buatlah contoh penerapan masing-masing metode pembelajaran pada Mata Pelajaran Informatika. Identifikasi perbedaan dan karakteristik dari setiap jenis metode pembelajarannya.",
+    deskripsi: "",
     link: {
       filetugas: "<a href='#' ><i class='fa-solid fa-download'></i></a>",
-      pengumpulan: "<a href='https://lms.unm.ac.id/mod/assign/view.php?id=685359'><i class='fa-solid fa-link'></i></a>"
+      pengumpulan: "<a href=''><i class='fa-solid fa-link'></i></a>"
     },   
   },
   {
     matakuliah: "Kecerdasan Buatan",
     deadline: {
       pukul: "14.50",
-      tanggal: "23-09-2025"
+      tanggal: "01-10-2025"
     },
-    deskripsi: "Tugas Kelompok: Cari Topik",
+    deskripsi: "Tugas",
     link: {
       filetugas: "<a href='#' ><i class='fa-solid fa-download'></i></a>",
       pengumpulan: "<a href='#'><i class='fa-solid fa-link'></i></a>"
@@ -64,9 +64,9 @@ const jadwalData = [
     matakuliah: "Jaringan Komputer",
     deadline: {
       pukul: "10.00",
-      tanggal: "24-09-2025"
+      tanggal: ""
     },
-    deskripsi: "Tugas Individu: Summary OSI dan DOD Layer & Tugas Kelompok: IP Address, Subnetting",
+    deskripsi: "",
     link: {
       filetugas: "<a href='#' download ><i class='fa-solid fa-download'></i></a>",
       pengumpulan: "<a href='#'><i class='fa-solid fa-link'></i></a>"
