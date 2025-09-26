@@ -28,7 +28,7 @@ const jadwalData = [
     matakuliah: "Inovasi Teknologi",
     deadline: {
       pukul: "22.00",
-      tanggal: "29-09-2025"
+      tanggal: "30-09-2025"
     },
     deskripsi: "Bab 4 & Lampiran",
     link: {
@@ -68,7 +68,7 @@ const jadwalData = [
     },
     deskripsi: "Routing, Domain Name System",
     link: {
-      filetugas: "<a href='#' download ><i class='fa-solid fa-download'></i></a>",
+      filetugas: "<a href='#' ><i class='fa-solid fa-download'></i></a>",
       pengumpulan: "<a href='#'><i class='fa-solid fa-link'></i></a>"
     },   
   },
@@ -76,11 +76,11 @@ const jadwalData = [
     matakuliah: "Pemrograman Web",
     deadline: {
       pukul: "23.00",
-      tanggal: "24-09-2025"
+      tanggal: "01-10-2025"
     },
-    deskripsi: "Proyek Kelompok: Membuat website sekolah",
+    deskripsi: "Tugas",
     link: {
-      filetugas: "<a href='file-tugas/pw.docx' download><i class='fa-solid fa-download'></i></a>",
+      filetugas: "<a href='#' ><i class='fa-solid fa-download'></i></a>",
       pengumpulan: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSdbpqdHFNEew-wefIaBbjz66ewZenODm9kyvzpRGqJ6tyWueA/viewform'><i class='fa-solid fa-link'></i></a>"
     },   
   },
@@ -90,9 +90,9 @@ const jadwalData = [
       pukul: "13.00",
       tanggal: "26-09-2025"
     },
-    deskripsi: "Praktikum 2: Pointer & Praktikum 3: Rekursif",
+    deskripsi: "Praktikum 3: Rekursif",
     link: {
-      filetugas: "<a href='file-tugas/sd.zip' download ><i class='fa-solid fa-download'></i></a>",
+      filetugas: "<a href='file-tugas/praktikum3.docx' download ><i class='fa-solid fa-download'></i></a>",
       pengumpulan: "<a href='#'><i class='fa-solid fa-link'></i></a>"
     },   
   },
