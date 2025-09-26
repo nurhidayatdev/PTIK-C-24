@@ -88,7 +88,7 @@ const jadwalData = [
     matakuliah: "Struktur Data",
     deadline: {
       pukul: "13.00",
-      tanggal: "26-09-2025"
+      tanggal: "03-10-2025"
     },
     deskripsi: "Praktikum 3: Rekursif",
     link: {
