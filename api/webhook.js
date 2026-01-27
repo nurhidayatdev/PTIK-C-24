@@ -1,6 +1,5 @@
 const TAG_ALL_NUMBERS = [
-  "6287873520868",
-  "6287816244448"
+  "6287873520868"
 ];
 
 export default async function handler(req, res) {
