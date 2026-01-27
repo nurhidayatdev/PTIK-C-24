@@ -1,23 +1,23 @@
 export default async function handler(req, res) {
+  console.log("WEBHOOK MASUK");
+
   if (req.method !== "POST") {
-    return res.status(405).end();
+    return res.status(200).send("OK");
   }
 
   const data = req.body;
+  console.log(data);
 
-  const pesan = data.message?.toLowerCase();
+  const pesan = data.message;
   const groupId = data.group_id;
-  const sender = data.sender;
 
-  // Pastikan pesan dari group
+  // pastikan dari group
   if (!groupId) {
-    return res.status(200).json({ status: "ignore" });
+    return res.status(200).json({ status: "bukan group" });
   }
 
-  // COMMAND
-  if (pesan === "!tagall" || pesan.startsWith("!all")) {
-    const textTambahan = pesan.replace("!all", "").trim();
-
+  // command
+  if (pesan === "!tagall") {
     await fetch("https://api.fonnte.com/send", {
       method: "POST",
       headers: {
@@ -26,10 +26,10 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         target: groupId,
-        message: `@everyone ${textTambahan || "Halo semua 👋"}`
+        message: "@everyone Halo semua 👋"
       }),
     });
   }
 
-  res.status(200).json({ status: "ok" });
+  res.status(200).json({ status: "done" });
 }
