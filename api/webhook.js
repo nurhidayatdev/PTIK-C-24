@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   console.log("TEXT:", pesan);
 
   // COMMAND SEDERHANA
-  if (pesan.trim() === "!test") {
+  if (pesan.trim() === "/test") {
     await fetch("https://api.fonnte.com/send", {
       method: "POST",
       headers: {
