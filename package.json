@@ -1,6 +1,7 @@
 {
+  "name": "bot-wa-vercel",
+  "version": "1.0.0",
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.13",
-    "tailwindcss": "^4.1.13"
+    "axios": "^1.6.0"
   }
 }
