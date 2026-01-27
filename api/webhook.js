@@ -2,6 +2,9 @@
 // KONFIGURASI
 // ===============================
 
+// 🔴 GANTI DENGAN GROUP ID KAMU
+const GROUP_ID = "120363406099279842@g.us";
+
 // Nomor WA yang akan di-tag (HARUS ADA di group)
 const TAG_ALL_NUMBERS = [
   "6287873520868"
@@ -11,35 +14,22 @@ const TAG_ALL_NUMBERS = [
 // HANDLER
 // ===============================
 export default async function handler(req, res) {
-  // Terima webhook dari Fontte
   if (req.method !== "POST") {
     return res.status(200).send("OK");
   }
 
   const data = req.body;
 
-  // ===============================
-  // AMBIL DATA DARI FONTTE
-  // ===============================
-  const pesan = data.text;     // isi chat WA
-  const from = data.from;      // ID group: xxxx@g.us
+  // Ambil isi pesan saja
+  const pesan = data.text || "";
 
   console.log("TEXT:", pesan);
-  console.log("FROM:", from);
-
-  // ===============================
-  // VALIDASI GROUP
-  // ===============================
-  if (!from || !from.endsWith("@g.us")) {
-    return res.status(200).json({ status: "bukan group" });
-  }
 
   // ===============================
   // COMMAND !tagall
   // ===============================
-  if (pesan && pesan.toLowerCase().startsWith("!tagall")) {
+  if (pesan.toLowerCase().startsWith("!tagall")) {
 
-    // pesan tambahan dari command
     const customText = pesan.replace("!tagall", "").trim();
     const finalMessage = customText || "Halo semua 👋 mohon perhatiannya";
 
@@ -51,12 +41,12 @@ export default async function handler(req, res) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        target: from,
+        target: GROUP_ID,
         message: "📣 Tag semua sedang diproses..."
       }),
     });
 
-    // kirim mention semua
+    // kirim mention
     await fetch("https://api.fonnte.com/send", {
       method: "POST",
       headers: {
@@ -64,7 +54,7 @@ export default async function handler(req, res) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        target: from,
+        target: GROUP_ID,
         message: finalMessage,
         mentions: TAG_ALL_NUMBERS
       }),
