@@ -4,9 +4,7 @@
 
 // Nomor WA yang akan di-tag (HARUS ADA di group)
 const TAG_ALL_NUMBERS = [
-  "6281234567890",
-  "6289876543210",
-  "6281112223334"
+  "6287873520868"
 ];
 
 // ===============================
