@@ -9,28 +9,21 @@ export default async function handler(req, res) {
 
   const data = req.body;
 
-  // 🔥 ambil field dengan aman
-  const pesan =
-    data.text ||
-    data.message ||
-    data.body ||
-    "";
+  // ✅ AMBIL FIELD YANG BENAR
+  const pesan = data.text;     // ISI CHAT
+  const from = data.from;      // GROUP ID
 
-  const from =
-    data.from ||
-    data.group_id ||
-    "";
-
-  console.log("PESAN:", pesan);
+  console.log("TEXT:", pesan);
   console.log("FROM:", from);
+  console.log("TYPE:", data.type);
 
   // pastikan dari group
-  if (!from.endsWith("@g.us")) {
+  if (!from || !from.endsWith("@g.us")) {
     return res.status(200).json({ status: "bukan group" });
   }
 
   // command
-  if (pesan.trim().toLowerCase().startsWith("!all")) {
+  if (pesan && pesan.trim().toLowerCase() === "!tagall") {
 
     // respon biar kelihatan hidup
     await fetch("https://api.fonnte.com/send", {
@@ -41,7 +34,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         target: from,
-        message: "✅ Command diterima, sedang tag semua..."
+        message: "✅ Command diterima, tagging semua..."
       }),
     });
 
