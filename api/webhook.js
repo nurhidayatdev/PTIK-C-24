@@ -1,50 +1,35 @@
-const axios = require('axios');
+export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    return res.status(405).end();
+  }
 
-module.exports = async (req, res) => {
-  // Hanya menerima metode POST dari Fonnte
-  if (req.method === 'POST') {
-    const { message, sender } = req.body;
+  const data = req.body;
 
-    if (!message) {
-      return res.status(200).send('No Message Received');
-    }
+  const pesan = data.message?.toLowerCase();
+  const groupId = data.group_id;
+  const sender = data.sender;
 
-    const chat = message.toLowerCase().trim();
-    const TOKEN_FONNTE = 'TOKEN_DARI_DASHBOARD_FONNTE'; // Ganti dengan Tokenmu
-    let replyMessage = "";
+  // Pastikan pesan dari group
+  if (!groupId) {
+    return res.status(200).json({ status: "ignore" });
+  }
 
-    // LOGIKA COMMAND
-    if (chat === '/halo') {
-      replyMessage = "Halo! Bot kamu sekarang aktif di Vercel ⚡";
-    } else if (chat === '/cek') {
-      replyMessage = `Status: Aktif\nSender: ${sender}\nPlatform: Vercel Serverless`;
-    } else if (chat === '/help') {
-      replyMessage = "Perintah: /halo, /cek, /help";
-    }
+  // COMMAND
+  if (pesan === "!tagall" || pesan.startsWith("!all")) {
+    const textTambahan = pesan.replace("!all", "").trim();
 
-    // Kirim Balasan via Fonnte
-    if (replyMessage) {
-      try {
-        await axios.post('https://api.fonnte.com/send', 
-        new URLSearchParams({
-          'target': sender,
-          'message': replyMessage
-        }), {
-          headers: { 'Authorization': TOKEN_FONNTE }
-        });
-      } catch (error) {
-        console.error("Gagal kirim balik:", error.message);
-      }
-    }
-
-    return res.status(200).send('Success');
-  } 
-  
-  // Jika diakses lewat browser (GET)
-  else {
-    return res.status(200).json({
-      status: "online",
-      message: "Webhook Vercel siap! Hubungkan URL ini/api/webhook ke Fonnte."
+    await fetch("https://api.fonnte.com/send", {
+      method: "POST",
+      headers: {
+        Authorization: process.env.FONTTE_KEY,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        target: groupId,
+        message: `@everyone ${textTambahan || "Halo semua 👋"}`
+      }),
     });
   }
-};
+
+  res.status(200).json({ status: "ok" });
+}
