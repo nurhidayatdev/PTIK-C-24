@@ -1,23 +1,25 @@
-export default async function handler(req, res) {
-  console.log("WEBHOOK MASUK");
+const TAG_ALL_NUMBERS = [
+  "6287873520868",
+  "6287816244448"
+];
 
+export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(200).send("OK");
   }
 
   const data = req.body;
-  console.log(data);
-
   const pesan = data.message;
   const groupId = data.group_id;
 
-  // pastikan dari group
+  // hanya group
   if (!groupId) {
-    return res.status(200).json({ status: "bukan group" });
+    return res.status(200).json({ status: "private chat" });
   }
 
   // command
   if (pesan === "!tagall") {
+
     await fetch("https://api.fonnte.com/send", {
       method: "POST",
       headers: {
@@ -26,10 +28,11 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         target: groupId,
-        message: "@everyone Halo semua 👋"
+        message: "Halo semua 👋 mohon perhatiannya",
+        mentions: TAG_ALL_NUMBERS
       }),
     });
   }
 
-  res.status(200).json({ status: "done" });
+  res.status(200).json({ status: "ok" });
 }
